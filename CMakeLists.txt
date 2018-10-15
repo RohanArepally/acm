@@ -1,3 +1,3 @@
 cmake_minimum_required(VERSION 3.6.3)
 project(acm)
-add_executable(acm spoj_NSTEPS.cpp)
+add_executable(acm spoj_SAMER08F.cpp)
