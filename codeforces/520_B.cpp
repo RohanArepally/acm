@@ -29,7 +29,7 @@ int main() {
     // Well you will need to add 1 twice, before you can divide by 2 again.
     // And, that goes in the opposite direction so its an additional 2 steps.
     while (n < m) {
-        if (m % 2) m /= 2, w++;
+        if (m % 2 == 0) m /= 2, w++;
         else m++, w++;
     }
     if (n != m) {
